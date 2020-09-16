@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bed372d24782503642badb189faff25a",
+    "revision": "8b6d41141a59e12643329d5c083d7393",
     "url": "/student-base/index.html"
   },
   {
-    "revision": "fe11d49cb6268e9a5902",
-    "url": "/student-base/static/css/main.f20955fb.chunk.css"
+    "revision": "229dcd9e92c6f49c6a0c",
+    "url": "/student-base/static/css/main.040307bc.chunk.css"
   },
   {
-    "revision": "fab3a34727d03e316e02",
-    "url": "/student-base/static/js/2.0ebfacab.chunk.js"
+    "revision": "c35acb3703467f89b0ec",
+    "url": "/student-base/static/js/2.c0273c5e.chunk.js"
   },
   {
     "revision": "d0b13a04dd0dc4c851ad16fad1cc6f51",
-    "url": "/student-base/static/js/2.0ebfacab.chunk.js.LICENSE.txt"
+    "url": "/student-base/static/js/2.c0273c5e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fe11d49cb6268e9a5902",
-    "url": "/student-base/static/js/main.cc433baa.chunk.js"
+    "revision": "229dcd9e92c6f49c6a0c",
+    "url": "/student-base/static/js/main.13924b2f.chunk.js"
   },
   {
     "revision": "a33796d64b16754cbc64",
