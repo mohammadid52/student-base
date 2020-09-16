@@ -1,4 +1,5 @@
 {
+  "homepage": "http://mohammadid52.github.io/student-base",
   "name": "student-base",
   "version": "0.1.0",
   "private": true,
@@ -23,6 +24,8 @@
     "redux-firestore": "^0.13.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useHistory } from "react-router-dom";
 import { useFirebase } from "react-redux-firebase";
+import { useSelector } from "react-redux/lib/hooks/useSelector";
 
 const Navbar = () => {
   const firebase = useFirebase();
@@ -13,6 +14,7 @@ const Navbar = () => {
       console.log("error Logout: ", error);
     }
   };
+
   return (
     <nav className="navbar navbar-expand-sm navbar-light bg-white">
       <div className="container">
@@ -25,10 +27,12 @@ const Navbar = () => {
         </Link>
 
         <div>
-          <ul className="navbar-nav mr-auto"></ul>
           <ul className="navbar-nav align-items-center">
             <li className="nav-item">
-              <Link to="/studentForm" className="btn btn-primary mr-3">
+              <Link
+                to="/studentForm"
+                className="btn btn-primary mr-3 add-student-btn"
+              >
                 Add Student
               </Link>
             </li>
@@ -58,8 +62,8 @@ const Navbar = () => {
                   Logout
                 </Link>
                 <div className="dropdown-divider"></div>
-                <Link className="dropdown-item" to="!#">
-                  Ads
+                <Link className="dropdown-item" to="/studentForm">
+                  Add Student
                 </Link>
               </div>
             </li>

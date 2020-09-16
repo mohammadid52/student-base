@@ -14,4 +14,16 @@
   position: absolute;
   top: 0;
   right: 0;
+  & span {
+    transition: all 0.5s;
+    &:hover {
+      color: #d00000;
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .add-student-btn {
+    display: none !important;
+  }
 }

@@ -45,7 +45,7 @@ const Students = () => {
                     alt="Avatar Img"
                   />
                   <h5 className="card-title mb-0">{name}</h5>
-                  <p className="text-muted small">{email}</p>
+                  <p className="text-muted small mb-4">{email}</p>
                   <Link
                     to={`student/${id}`}
                     className="btn btn-primary btn-profile"
