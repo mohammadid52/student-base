@@ -1,0 +1,10 @@
+$theme-colors: (
+  primary: #d00000,
+);
+$body-bg: #f48c06;
+$font-family-base: "Poppins";
+$card-border-width: 0;
+.card {
+  position: relative;
+}
+@import "~bootstrap/scss/bootstrap";
